@@ -28,7 +28,9 @@ Route::get('/cicli', function(){
 
     $nome_page = 'CICLI';
 
-    return view('cicli', compact('nome_page'));
+    $books = ['Harry Potter', 'Narnia', 'The Hunger Games', 'Persy Jackson'];
+
+    return view('cicli', compact('nome_page', 'books'));
 });
 
 // Route::get('/', function () {

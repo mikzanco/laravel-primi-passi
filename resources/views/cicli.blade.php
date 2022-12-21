@@ -8,8 +8,24 @@
     <title>Hompage</title>
 </head>
 <body>
+    <div class="container-big">
 
-    <h1>{{ $nome_page }}</h1>
+        <div class="container">
+            <h1>{{ $nome_page }}</h1>
+            <a href="/">Torna alla Home</a>
+        </div>
+
+        <div class="container">
+            <ul>
+                @foreach($books as $book)
+                    <li>{{ $book }}</li>
+                @endforeach
+            </ul>
+
+        </div>
+    </div>
+
+
 
 </body>
 </html>

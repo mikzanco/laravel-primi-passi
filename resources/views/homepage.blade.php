@@ -13,7 +13,7 @@
         <h1>{{ $saluto }}</h1>
         <h2>{{ $altro_saluto }}</h2>
 
-        <a href="/cicli"></a>
+        <a href="/cicli">Passa a vedere i cicli</a>
     </div>
 
 </body>
