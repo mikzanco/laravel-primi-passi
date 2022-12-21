@@ -35,6 +35,8 @@ Route::get('/cicli', function(){
 
 Route::get('/navbar', function(){
 
+    $nome_page = 'navbar';
+
     $team = [
         [
             'name'=> 'Mirkp',
@@ -50,7 +52,7 @@ Route::get('/navbar', function(){
         ]
     ];
 
-    return view('navbar', compact('team'));
+    return view('navbar', compact('team', 'nome_page'));
 });
 
 // Route::get('/', function () {

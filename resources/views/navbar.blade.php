@@ -22,6 +22,7 @@
         </div>
     </header>
 
+    <h1> {{ $nome_page }}</h1>
     <div class="container">
         @foreach ($team as $member )
             <div class="box">
