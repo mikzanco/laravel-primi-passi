@@ -28,6 +28,7 @@
         </div>
 
         <div class="container">
+            <h3>Qualche libro da leggere stampato con un ciclo FOREACH</h3>
             <ul>
                 @foreach($books as $book)
                     <li>{{ $book }}</li>
@@ -36,7 +37,14 @@
 
         </div>
     </div>
-
+    <div class="container">
+        <h3>Una semplice lista di 20 numeri stampata con un ciclo FOR</h3>
+        <ul>
+            @for($i = 0; $i < 20; $i++)
+                <li> {{ $i +1 }} </li>
+            @endfor
+        </ul>
+    </div>
 
 
 </body>

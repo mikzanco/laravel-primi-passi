@@ -17,15 +17,16 @@ body{
 }
 
 header{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     height: 90px;
     width: 100%;
 }
 
 .header-cont{
     padding: 10px;
+    justify-content: center;
     align-items: center;
     display: flex;
     margin: 10px;
@@ -34,6 +35,20 @@ header{
     width: 50%;
 }
 
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: cadetblue;
+}
+
 .nav{
     padding: 5px;
+}
+
+.box{
+    width: 30%;
+    background-color: rgb(0, 110, 255);
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 3%;
 }

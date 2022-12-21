@@ -38,15 +38,15 @@ Route::get('/navbar', function(){
     $team = [
         [
             'name'=> 'Mirkp',
-            'surname'=> 'Gio',
+            'surname'=> 'Giobatta',
         ],
         [
             'name'=> 'Ugo',
-            'surname'=> 'de ughi',
+            'surname'=> 'De Ughi',
         ],
         [
-            'name'=> 'federico',
-            'surname'=> 'nio',
+            'name'=> 'Francesco',
+            'surname'=> 'Di Giovanni',
         ]
     ];
 

@@ -24,7 +24,7 @@
 
     <div class="container">
         @foreach ($team as $member )
-            <div>
+            <div class="box">
                 <h2>{{$member['name']}}</h2>
                 <h3>{{$member['surname']}}</h3>
             </div>
