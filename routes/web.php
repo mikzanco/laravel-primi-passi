@@ -33,6 +33,26 @@ Route::get('/cicli', function(){
     return view('cicli', compact('nome_page', 'books'));
 });
 
+Route::get('/navbar', function(){
+
+    $team = [
+        [
+            'name'=> 'Mirkp',
+            'surname'=> 'Gio',
+        ],
+        [
+            'name'=> 'Ugo',
+            'surname'=> 'de ughi',
+        ],
+        [
+            'name'=> 'federico',
+            'surname'=> 'nio',
+        ]
+    ];
+
+    return view('navbar', compact('team'));
+});
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });

@@ -15,3 +15,25 @@ body{
     margin: 20px auto;
     padding: 2%;
 }
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    height: 90px;
+    width: 100%;
+}
+
+.header-cont{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    /* background-color: aqua; */
+    height: 80%;
+    width: 50%;
+}
+
+.nav{
+    padding: 5px;
+}

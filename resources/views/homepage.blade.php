@@ -8,12 +8,23 @@
     <title>Hompage</title>
 </head>
 <body>
-
+    <header>
+        <div class="header-cont">
+            <div class="nav">
+                <a href="/">Torna alla Home</a>
+            </div>
+            <div class="nav">
+                <a href="/cicli">Passa a vedere i cicli</a>
+            </div>
+            <div class="nav">
+                <a href="/navbar">navbar</a>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <h1>{{ $saluto }}</h1>
         <h2>{{ $altro_saluto }}</h2>
 
-        <a href="/cicli">Passa a vedere i cicli</a>
     </div>
 
 </body>
