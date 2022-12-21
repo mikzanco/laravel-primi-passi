@@ -15,7 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function(){
-    return view('homepage');
+
+    $saluto = 'Hello Word';
+    $altro_saluto = 'buone feste';
+
+
+
+    return view('homepage', compact('saluto', 'altro_saluto'));
 });
 
 // Route::get('/', function () {

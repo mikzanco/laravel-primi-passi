@@ -8,6 +8,7 @@
     <title>Hompage</title>
 </head>
 <body>
-    <h1>Hello Word</h1>
+    <h1>{{ $saluto }}</h1>
+    <h2>{{ $altro_saluto }}</h2>
 </body>
 </html>
