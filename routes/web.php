@@ -24,6 +24,13 @@ Route::get('/', function(){
     return view('homepage', compact('saluto', 'altro_saluto'));
 });
 
+Route::get('/cicli', function(){
+
+    $nome_page = 'CICLI';
+
+    return view('cicli', compact('nome_page'));
+});
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });

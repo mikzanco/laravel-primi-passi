@@ -8,3 +8,10 @@ body{
     background-color: black;
     color: white;
 }
+
+.container{
+    min-width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 2%;
+}

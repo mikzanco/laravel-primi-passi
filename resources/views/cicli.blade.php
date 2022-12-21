@@ -9,12 +9,7 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>{{ $saluto }}</h1>
-        <h2>{{ $altro_saluto }}</h2>
-
-        <a href="/cicli"></a>
-    </div>
+    <h1>{{ $nome_page }}</h1>
 
 </body>
 </html>
