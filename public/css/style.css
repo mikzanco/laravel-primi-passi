@@ -39,6 +39,12 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     color: cadetblue;
+
+}
+
+a:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
 }
 
 .nav{
